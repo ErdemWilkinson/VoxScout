@@ -1,0 +1,12 @@
+VoxScout
+Copyright 2026 Erdem Aslan
+https://github.com/ErdemWilkinson/VoxScout
+
+VoxScout is an aerial person detector by Erdem Aslan. Its backbone is a modified
+copy of the EfficientNet-B0 ImageNet weights distributed with Keras
+(keras.applications.EfficientNetB0), Copyright Google LLC, licensed under the
+Apache License, Version 2.0. Changes: a detection head was added and the whole
+network was fine-tuned on the HERIDAL dataset. Google does not endorse VoxScout.
+
+If you redistribute VoxScout or a work derived from it, keep this NOTICE file and
+credit "VoxScout by Erdem Aslan" with a link to the repository.
